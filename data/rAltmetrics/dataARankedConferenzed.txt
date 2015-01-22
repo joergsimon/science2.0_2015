@@ -1,0 +1,85 @@
+
+
+
+searched core ranking of 2014:
+http://103.1.187.206/core/?search=sensors&by=all&source=CORE2014&sort=arank&page=1
+CORE:
+search: mobile, A*-A
+MOBICOM: ACM International Conference on Mobile Computing and Networking
+MOBIHOC: ACM Symposium of Mobile and Ad Hoc Computing
+MSWIM: ACM/IEEE International Conference on Modelling, Analysis and Simulation of Wireless and Mobile Systems
+WoWMoM: IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks
+Mobiquitous: International Conference on Mobile and Ubiquitous Systems: Networks and Services
+
+search: ubiquitous, A*-A
+UbiComp: Ubiquitous Computing
+Mobiquitous: International Conference on Mobile and Ubiquitous Systems: Networks and Services
+
+search: pervasive, A*-A
+PERCOM: IEEE International Conference on Pervasive Computing and Communications
+PERVASIVE: International Conference on Pervasive Computing
+ICSPC: International Conference on Security in Pervasive Computing
+
+==> 9 conferences
+
+===================================================================
+UbiComp: starts 2002
+http://dl.acm.org/event.cfm?id=RE336&CFID=619965320&CFTOKEN=96996324
+1469
+arxiv: jr:Ubicomp -> 18
+       all:Ubicomp -> 19
+
+MOBICOMP: starts 1995
+http://dl.acm.org/event.cfm?id=RE366
+1,862
+arxiv: jr:MOBICOMP -> 0
+       all:MOBICOMP -> 0
+
+MobiHoc: starts 2000
+http://dl.acm.org/event.cfm?id=RE367
+713
+arxiv: jr:MobiHoc -> 0
+       all:MobiHoc -> 4 (really from conference)
+
+MSWiM: starts 1999
+http://dl.acm.org/event.cfm?id=RE318
+1416
+arxiv: jr:MSWiM -> 0
+       all:MSWiM -> 5
+       
+WoWMoM: since 2005
+http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1001379
+search 2005-2015
+http://ieeexplore.ieee.org/search/searchresult.jsp?punumber=6912450,6570845,6253016,5976314,5513765,5272105,4586176,4351671,10963,9858&addRange=2005_2014_Publication_Year&pageNumber=1&resultAction=REFINE
+1.253
+arxiv: jr:WoWMoM -> 3
+       all:WoWMoM -> 10
+       
+Mobiquitous: start 2004
+2004 - 2009 IEEE
+http://ieeexplore.ieee.org/search/searchresult.jsp?punumber=5305885,4446615,4205240,4141733,10342,9259&addRange=2004_2009_Publication_Year&pageNumber=1&resultAction=REFINE
+449
+then springer:
+http://www.springer.com/?SGWID=0-102-24-0-0&sortOrder=relevance&searchType=ADVANCED_CDA&title=Mobiquitous&queryText=&searchScope=editions
+34 + 69 + 53 + 23 = 179
+628
+arxiv: jr:Mobiquitous -> 1
+       all:Mobiquitous -> 3
+       
+PERCOM: start 2003
+http://ieeexplore.ieee.org/search/searchresult.jsp?punumber=6805340,6520974,6192377,5762825,5462649,4906860,4517340,4144734,10682,9592,8996,8487&addRange=2003_2014_Publication_Year&pageNumber=1&resultAction=REFINE
+732
+arxiv: jr:percom -> 1
+       all:percom -> 6
+
+Pervasive: started 2003, now merged with ubicomp (2012)
+http://www.springer.com/?SGWID=0-102-24-0-0&searchType=EASY_CDA&queryText=Pervasive+Computing&submit=Submit
+197
+arxiv: jr:PERVASIVE -> 10
+       all:PERVASIVE -> 398
+
+ICSPC: started 2013
+http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6720515
+69
+arxiv: jr:ICSPC -> 0
+       all:ICSPC -> 2
