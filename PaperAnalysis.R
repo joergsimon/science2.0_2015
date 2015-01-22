@@ -1,3 +1,8 @@
+# savely install packages
+# taken from
+# http://stackoverflow.com/questions/9341635/how-can-i-check-for-installed-r-packages-before-running-install-packages
+# and
+# http://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library
 pkgTest <- function(x) {
   if (!require(x,character.only = TRUE)) {
     install.packages(x,dep=TRUE)
@@ -18,6 +23,10 @@ library(aRxiv)
 library(rAltmetric)
 library(plyr)
 
+# get the data from altmetrics.
+# first check if anything exists with that arXiv id
+# if nothing is found, check if the document has an doi,
+# and if it has, try to get altmetrics with that
 getAltmetricsData <- function(x) {
   arX <- x$id
   if (!is.null(arX)) {
@@ -40,11 +49,16 @@ getAltmetricsData <- function(x) {
   return ( data )
 }
 
+# 'main' function triggering an almetric search
+# and forward that result to further processing
 processSearchstr <- function(searchString) {
   rec <<- arxiv_search(searchField, limit=2000)
   processResult(rec)
 }
 
+# process the result from the search in arXiv with 
+# the rAltmetrics package to optain a list of
+# altmetric objects
 processResult <- function(rec) {
   raw_metrics <<- list()
   for (i in 1:nrow(rec)) {
@@ -62,6 +76,7 @@ processResult <- function(rec) {
 }
 
 # this method does not work in RStudio :/ 
+# print the altmetrics objects in a plot
 processRawMetrics <- function(raw_metrics) {
   for(i in 1:length(raw_metrics)) {
     print("--------------------------------------------------------------")
